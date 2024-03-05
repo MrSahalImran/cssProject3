@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: work sans;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+main{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: flex-end;
+    /* justify-content: space-between; */
+    padding: 0px 90px;
+    padding-top: 120px;
+    gap: 60px;
+}
+#left{
+    display: flex;
+    height: 100%;
+    width: 45%;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: aqua; */
+}
+#left h1{
+    font-size: 100px;
+    font-weight: 500;
+    line-height: 15vh;
+    margin-bottom: 150px;
+}
+#bottom-left{
+    height: 40%;
+    width: 100%;
+    /* background-color: yellow; */
+}
+#color{
+    display: flex;
+    padding: 6px 12px;
+    width: fit-content;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    border: 1px solid rgb(128, 50, 50);
+    margin-bottom: 30px;
+}
+#color h5{
+    font-size: 20px;
+    margin-right: 15px;
+    font-weight: 500;
+}
+#color1{
+    height: 20px;
+    width: 20px;
+    background-color: burlywood;
+    border-radius: 15px;
+    margin-right: 5px;
+}
+#color2{
+    height: 20px;
+    width: 20px;
+    border-radius: 15px;
+    background-color: brown;
+}
+#bottom-left h3{
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+#bottom-left p{
+    width: 50%;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #222;
+    padding-bottom: 50px;
+}
+#right{
+    
+    position: relative;
+    height: 90%;
+    width: 37%;
+    /* background-color: red; */
+}
+#right-top{
+    justify-content: space-between;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* background-color: green; */
+    padding-right: 20px;
+}
+#right-top h4{
+    font-size: 17px;
+    font-weight: 550;
+}
+#right-top h5{
+    font-size: 15px;
+    font-weight: 550;
+}
+#right img{
+    height: 90%;
+    width: 100%;
+    object-fit: cover;
+}
+#black-circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(17, 16, 16);
+    color: aliceblue;
+    border-radius: 50px;
+    top: 50%;
+    position: absolute;
+    top: 30%;
+    left: 92%;
+}
+#rotated{
+    bottom: 0;
+    left: -7% ;
+    position: absolute;
+    transform-origin: 0;
+    rotate: -90deg;
+    font-weight: 500;
+}
